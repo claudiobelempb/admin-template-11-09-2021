@@ -1,3 +1,22 @@
+# Start App
+
+npx create-next-app .
+npx create-next-app -e with-tailwindcss my-project
+npx tailwindcss init -p
+purge: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
+
+# Dependências
+
+yarn add firebase -S
+yarn add js-cookie -S
+yarn add @types/js-cookie -D
+
+# Dependências DEV
+
+yarn add typescript -D
+yarn add @types/react -D
+yarn add tailwindcss@latest postcss@latest autoprefixer@latest -D
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
